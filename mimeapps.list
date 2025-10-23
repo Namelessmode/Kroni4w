@@ -31,7 +31,7 @@ inode/directory=/home/Arkernalis/.local/share/applications/dolphin-2.desktop;dol
 text/markdown=/home/Arkernalis/.local/share/applications/nvim-3.desktop;
 text/plain=/home/Arkernalis/.local/share/applications/nvim-3.desktop;nvim-3.desktop;nvim-2.desktop;
 text/x-cmake=/home/Arkernalis/.local/share/applications/nvim-3.desktop;
-video/mp4=vlc-6.desktop;vlc-5.desktop;vlc-4.desktop;vlc-3.desktop;vlc-2.desktop;loupe-4.desktop;
+video/mp4=vlc-6.desktop;vlc-5.desktop;vlc-4.desktop;vlc-3.desktop;vlc-2.desktop;loupe-4.desktop;mpv.desktop;
 
 [Default Applications]
 application/json=/home/Arkernalis/.local/share/applications/nvim-3.desktop;
@@ -66,4 +66,4 @@ inode/directory=/home/Arkernalis/.local/share/applications/dolphin-2.desktop;
 text/markdown=/home/Arkernalis/.local/share/applications/nvim-3.desktop;
 text/plain=/home/Arkernalis/.local/share/applications/nvim-3.desktop;
 text/x-cmake=/home/Arkernalis/.local/share/applications/nvim-3.desktop;
-video/mp4=vlc-6.desktop;
+video/mp4=mpv.desktop

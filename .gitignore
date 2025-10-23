@@ -1,0 +1,13 @@
+# Cache and temp
+*/cache/
+*/Cache/
+*.log
+*.swp
+*.tmp
+
+# Local secrets
+secrets/
+pavucontrol.ini
+
+# Desktop files
+*.desktop
