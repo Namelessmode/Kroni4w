@@ -1,0 +1,6 @@
+[Plugins]
+blurEnabled=true
+
+[org.kde.kdecoration2]
+library=org.kde.darkly
+theme=Darkly

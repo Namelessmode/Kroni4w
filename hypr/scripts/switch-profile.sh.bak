@@ -1,0 +1,39 @@
+#!/bin/bash
+
+PROFILE=$1
+
+# Check if the user passed a profile
+if [ -z "$PROFILE" ]; then
+    echo "No profile specified."
+    echo "Usage: $0 [performance|balanced|saver]"
+    exit 1
+fi
+
+# Absolute path to your TLP profiles
+CONFIG_DIR="$HOME/.config/hypr/scripts/profile-daemon"
+
+# Switch profiles
+case "$PROFILE" in
+    performance)
+        sudo cp "$CONFIG_DIR/tlp-performance.conf" /etc/tlp.conf
+        ;;
+    balanced)
+        sudo cp "$CONFIG_DIR/tlp-power.conf" /etc/tlp.conf
+        ;;
+    *)
+        echo "Invalid profile: $PROFILE"
+        echo "Usage: $0 [performance|balanced]"
+        exit 1
+        ;;
+esac
+
+# Restart TLP
+sudo systemctl restart tlp
+
+# Save current profile for Waybar or other scripts
+PROFILE_LOG="$CONFIG_DIR/profile/current_profile"
+mkdir -p "$(dirname "$PROFILE_LOG")"
+echo "$PROFILE" > "$PROFILE_LOG"
+
+echo "Switched to $PROFILE profile."
+

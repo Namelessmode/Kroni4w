@@ -1,0 +1,71 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Main Config (wallpaper) */
+
+@import "~/.config/rofi/config.rasi"  
+
+/* ---- Configuration ---- */ 
+configuration {
+  modi: "dmenu";
+}
+
+window {
+  width: 70%;
+  height: inherit;
+}
+
+/* ---- Mainbox ---- */
+/*mainbox {
+  children:
+    [ "inputbar", "listview"];
+}*/
+
+/*mainbox {
+    enabled: true;
+    orientation: horizontal;
+    background-image: @current-image;
+    background-color: rgba(20, 20, 20, 1);
+}*/
+
+/* ---- Listview ---- */
+listview {
+  columns: 3;
+  lines: 2;
+  spacing: 40px;
+  padding: 30px;
+  columns: 3;
+  lines: 1;
+  flow: vertical;
+  fixed-width: false;
+  fixed-height: false;
+  cycle: true;
+  background-color: @surface-container;
+  border-radius: 10px;
+}
+
+/* ---- Element ---- */
+element {
+  orientation: vertical;
+  padding: 0px;
+  spacing: 0px;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+
+element selected.normal {
+  background-color: @background;
+}
+
+element-icon {
+    text-color:                  inherit;
+    size:                        20%;
+    margin:                      -30px;
+    cursor:                      inherit;
+}
+
+element-text {
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
+  padding: 6px;
+  margin: 6px;
+}

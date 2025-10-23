@@ -1,0 +1,17 @@
+sw_volume: 96
+audio_device_state:1:PulseAudio Output
+state: stop
+current: 2
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Dido - Thank You (Lyrics).mp3
+1:Katyusha-Japanese-Version-[Original].mp3
+2:Sincerely, I love you..mp3
+playlist_end

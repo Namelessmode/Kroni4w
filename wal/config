@@ -1,0 +1,10 @@
+[wal]
+# Location of the templates directory
+templates = "~/.config/wal/templates/"
+
+[templates.rofi]
+# Template to use and the destination file
+template = "colors-rofi.rasi"
+target = "~/.cache/wal/colors-rofi.rasi"
+
+
