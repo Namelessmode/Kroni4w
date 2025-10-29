@@ -9,12 +9,12 @@
 
 
 /*-----------IMPORTING MATUGEN COLORS----------*/
-@import "../Matugen/colors.css";
+@import "Matugen/colors.css";
 
 
 * {
     font-size: 12px;
-    font-family: GeistMono Nerd Font Propo;
+    font-family: JetBrains Mono Nerd Font;
     font-weight: bold;
 }
 window#waybar{

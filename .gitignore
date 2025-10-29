@@ -11,3 +11,4 @@ pavucontrol.ini
 
 # Desktop files
 *.desktop
+*dconf

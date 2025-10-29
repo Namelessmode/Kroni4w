@@ -1,7 +1,7 @@
-sw_volume: 96
+sw_volume: 90
 audio_device_state:1:PulseAudio Output
 state: stop
-current: 2
+current: 3
 random: 0
 repeat: 0
 single: 0
@@ -14,4 +14,5 @@ playlist_begin
 0:Dido - Thank You (Lyrics).mp3
 1:Katyusha-Japanese-Version-[Original].mp3
 2:Sincerely, I love you..mp3
+3:[Lyrics+Vietsub] Abba-Lay All Your Love On Me (Slowed+Reverb) - S P R I N G (youtube).mp3
 playlist_end

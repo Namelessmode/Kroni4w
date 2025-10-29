@@ -50,14 +50,6 @@ output_path = '~/.config/swaync/colors.css'
 input_path = '~/.config/matugen/templates/sequences'
 output_path = '~/.cache/wal/sequences'
 
-[templates.primary]
-input_path = '~/.config/matugen/templates/primary'
-output_path = '~/.config/hypr/Modules/matugen-colors/primary'
-
-[templates.secondary]
-input_path = '~/.config/matugen/templates/secondary'
-output_path = '~/.config/hypr/Modules/matugen-colors/secondary'
-
 #[templates.on_surface]
 #input_path = '~/.config/matugen/templates/onsurface'
 #output_path = '~/.config/ml4w/colors/onsurface'

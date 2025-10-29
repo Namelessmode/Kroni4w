@@ -1,6 +1,6 @@
 if status is-interactive
 	
-    #Use starship
+  #Use starship
 	starship init fish | source
 
 	alias pamcan pacman
