@@ -4,6 +4,7 @@ bluetui
 bluez-utils
 brightnessctl
 btop
+cmatrix
 cava
 cdrtools
 cliphist
@@ -14,6 +15,7 @@ fish
 fwupd
 gnome-disk-utility
 gnome-system-monitor
+gopreload-git
 hypridle
 hyprland
 hyprlock
@@ -26,6 +28,7 @@ ly
 mpc
 mpd
 mpv
+matugen
 nautilus
 ncmpcpp
 neovim
@@ -39,6 +42,9 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+python-pywal16
+python-pywalfox
+preload
 qt5-wayland
 reflector
 rofi
@@ -52,6 +58,7 @@ unzip
 waybar
 wf-recorder
 wl-clip-persist
+wlogout
 xdg-desktop-portal-gtk
 xdg-desktop-portal-wlr
 xf86-input-libinput
