@@ -1,6 +1,5 @@
 acpi_call          # Kernel module for ACPI calls, ThinkPad-specific
 acpid              # ACPI daemon, manages power events
-cpupower           # CPU frequency/power management
 efibootmgr         # EFI boot entries, firmware control
 intel-media-driver # Intel iGPU video acceleration
 libva-intel-driver # Intel VA-API driver
